@@ -1,0 +1,133 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Linkedin from '../components/icons/Linkedin.astro'
+import GitHub from '../components/icons/GitHub.astro'
+import Gmail from '../components/icons/Gmail.astro'
+import SocialPill from '../components/SocialPill.astro'
+import Experience from '../components/Experience.astro'
+import Projects from '../components/Projects.astro'
+import Nest from '../components/icons/Nest.astro'
+import Next from '../components/icons/Next.astro'
+import Posgree from '../components/icons/Posgree.astro'
+import React from '../components/icons/React.astro'
+import Redux from '../components/icons/Redux.astro'
+import Sequelize from '../components/icons/Sequelize.astro'
+import Tailwind from '../components/icons/Tailwind.astro';
+import TypeORM from '../components/icons/TypeORM.astro'
+import Figma from '../components/icons/Figma.astro'
+import MySQL from '../components/icons/MySQL.astro'
+import TypeScript from '../components/icons/Typescript.astro'
+import Footer from '../components/Footer.astro'
+
+
+
+---
+
+<Layout title="Portafolio de Aquiles Popovich -- Desarrollador y Programador Web">
+	<main>
+		<div id="presentacion" class="max-w-xl  p-8 rounded-lg shadow-lg">
+            <div class="flex gap-4 mb-4">
+                <img class="rounded-full shadow-lg size-16" src="https://media.licdn.com/dms/image/D4D03AQGpXrCGkfouTQ/profile-displayphoto-shrink_400_400/0/1694717754940?e=2147483647&v=beta&t=ZbOykJy3Lq4h7WUXcfle0frcYELmPE73fT6PXq2GUJ8" alt='imagen Aquiles' />
+                <a href="https://linkedin.com/in/midudev" target="_blank" rel="noopener" class="flex items-center transition md:justify-center md:hover:scale-105">
+                    <div class="flex items-center ">
+                        <span class="relative inline-flex overflow-hidden rounded-full p-[1px]">
+                            <span class="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#51E4B8_0%,#21554E_50%,#51E4B8_100%)]"></span>
+                            <div class="inline-flex items-center justify-center w-full px-3 py-1 text-sm text-green-800 bg-green-100 rounded-full cursor-pointer dark:bg-gray-800 dark:text-white/80 backdrop-blur-3xl whitespace-nowrap">
+                                Disponible para trabajar
+                            </div>
+                        </span>
+                    </div>
+                </a>
+            </div>
+            <h1 class="text-4xl font-bold tracking-tight text-white sm:text-5xl dark:text-white">
+                Hola! Soy Aquiles
+            </h1>
+            <p class="mt-6 text-xl text-gray-200 dark:text-gray-300">
+                Cuento con Experiencia en el mundo Tech. <strong class="text-yellow-500 font-semibold">Desarrollador Full Stack graduado en soyHenry y Coder House</strong> de <span class="text-blue-400">Buenos Aires</span>, <span class="text-blue-400">Argentina</span>. Soy colaborativo con una fuerte capacidad para la resolución de problemas y disposición para aprender.
+            </p>
+            <nav class="flex flex-wrap gap-4 mt-8">
+                <SocialPill href="mailto:popovichaquiles@gmail.com">
+                    <Gmail class="size-4" />
+                    <p class="ml-1">Contáctame</p>
+                </SocialPill>
+                <SocialPill href="https://www.linkedin.com/in/aquiles-popovich-636011266/">
+                    <Linkedin class="size-4" />
+                    <p class="ml-1">LinkedIn</p>
+                </SocialPill>
+                <SocialPill href="https://github.com/AquilesPopovich">
+                    <GitHub class="size-4" />
+                    <p class="ml-1">GitHub</p>
+                </SocialPill>
+            </nav>
+        </div>
+        
+    
+    <Experience/>
+
+    <Projects/>
+    
+    
+	
+
+<section id="tecnologias" class="container mx-auto py-20">
+    <h2 class="text-5xl font-bold text-center mb-10 ">Tecnologías que manejo</h2>
+
+    <div class="grid grid-cols-4 gap-8 justify-center items-center rounded-full border border-white/10 bg-white/5 px-20 py-20">
+        <div class="flex flex-col items-center">
+            <Nest class="w-10 h-10 lg:w-20 lg:h-20" />
+            <p class="text-center mt-2">Nest</p>
+        </div>
+        <div class="flex flex-col items-center">
+            <Sequelize class="w-10 h-10 lg:w-20 lg:h-20" />
+            <p class="text-center mt-2">Sequelize</p>
+        </div>
+        <div class="flex flex-col items-center">
+            <Next class="w-10 h-10 lg:w-20 lg:h-20" />
+            <p class="text-center mt-2">Next.js</p>
+        </div>
+        <div class="flex flex-col items-center">
+            <Tailwind class="w-10 h-10 lg:w-20 lg:h-20" />
+            <p class="text-center mt-2">Tailwind CSS</p>
+        </div>
+        <div class="flex flex-col items-center">
+            <Posgree class="w-10 h-10 lg:w-20 lg:h-20" />
+            <p class="text-center mt-2">PostgreSQL</p>
+        </div>
+        <div class="flex flex-col items-center">
+            <TypeORM class="w-10 h-10 lg:w-20 lg:h-20" />
+            <p class="text-center mt-2">TypeORM</p>
+        </div>
+        <div class="flex flex-col items-center">
+            <React class="w-10 h-10 lg:w-20 lg:h-20" />
+            <p class="text-center mt-2">React</p>
+        </div>
+        <div class="flex flex-col items-center">
+            <Figma class="w-10 h-10 lg:w-20 lg:h-20" />
+            <p class="text-center mt-2">Figma</p>
+        </div>
+        <div class="flex flex-col items-center">
+            <Redux class="w-10 h-10 lg:w-20 lg:h-20" />
+            <p class="text-center mt-2">Redux</p>
+        </div>
+        <div class="flex flex-col items-center">
+            <GitHub class="w-10 h-10 lg:w-20 lg:h-20" />
+            <p class="text-center mt-2">GitHub</p>
+        </div>
+        <div class="flex flex-col items-center">
+            <TypeScript class="w-10 h-10 lg:w-20 lg:h-20" />
+            <p class="text-center mt-2">TypeScript</p>
+        </div>
+        <div class="flex flex-col items-center">
+            <MySQL class="w-10 h-10 lg:w-20 lg:h-20" />
+            <p class="text-center mt-2">MySQL</p>
+        </div>
+    </div>
+</section>
+
+
+
+	<Footer/>
+	</main>
+</Layout>
+
+

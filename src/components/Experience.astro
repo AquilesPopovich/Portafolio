@@ -1,0 +1,68 @@
+<section id="experience" class="container lg:w-[740px] mx-auto py-20">
+    <div>
+        <h2 class="text-3xl font-bold text-start mb-8 ml-1 flex items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-briefcase h-10 w-10 ml-[-7px]" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M3 7m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
+                <path d="M8 7v-2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v2" />
+                <path d="M12 12l0 .01" />
+                <path d="M3 13a20 20 0 0 0 18 0" />
+            </svg>
+            Mi <span class="font-bold text-yellow-400">Experiencia</span>
+        </h2>
+    </div>
+    <div class="relative mx-12 pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 before:border-gray-400 before:content-[''] md:grid-cols-5 md:gap-10 md:space-x-4">
+       
+        <div class="relative pb-12 md:col-span-2">
+            <div class="sticky top-0">
+                <span class="text-yellow-400 left-[-43.5px] absolute rounded-full text-5xl">&bull;</span>
+                <h3 class="text-xl font-bold text-yellow-400">Full Stack Web Developer</h3>
+                <h4 class="font-semibold text-xl text-white/100">Matching Proyect</h4>
+                <time class="text-sm text-gray-300/80 dark:text-white/80">Dic. 2023 - Ene. 2024 · 5 semanas · España · Remoto</time>
+            </div>
+        </div>
+        <div class="relative flex flex-col gap-2 pb-4 text-gray-400 dark:text-gray-200 md:col-span-3">
+            <p class="text-pretty text-gray-200">Proyecto realizado para una empresa, consistía en una aplicación web responsive para reservar canchas y jugar con amigos, este proyecto fue llevado en un equipo de 4 personas.</p>
+            <button onclick="document.getElementById('exp1').classList.toggle('hidden'); document.getElementById('btn1').classList.toggle('hidden'); document.getElementById('btn2').classList.toggle('hidden');" id="btn1" class="rounded-full border border-white/20 hover:bg-white/20 text-white/70 hover:text-white focus:outline-none px-4 py-2">Mostrar más</button>
+            <button onclick="document.getElementById('exp1').classList.toggle('hidden'); document.getElementById('btn1').classList.toggle('hidden'); document.getElementById('btn2').classList.toggle('hidden');" id="btn2" class="hidden rounded-full border border-white/20 hover:bg-white/20 text-white/70 hover:text-white focus:outline-none px-4 py-2">Mostrar menos</button>
+            <div id="exp1" class="hidden">
+                <p><strong>Tecnologías usadas en el proyecto:</strong></p>
+                <ul class="list-disc pl-4">
+                    <li> <span class="text-yellow-400">Front:</span> ReactJs, Redux, CSS, HTML, MUI.</li>
+                    <li><span class="text-yellow-400">Backend:</span> NodeJs, Sequelize, Express.</li>
+                    <li><span class="text-yellow-400">Base de Datos:</span> PostgreSQL.</li>
+                </ul>
+                <div class="text-center mt-2">
+                    <a href="https://matchingweb.onrender.com" class="inline-block px-4 py-2 text-blue-500 hover:underline focus:outline-none border border-blue-500 rounded-lg transition duration-300 ease-in-out hover:bg-white/10" target="_blank">Mira el proyecto aquí</a>
+                </div>
+                
+                
+            </div>
+        </div>
+
+       
+        <div class="relative pb-12 md:col-span-2">
+            <div class="sticky top-0">
+                <span class="text-yellow-400 left-[-60px] absolute rounded-full text-5xl">&bull;</span>
+                <h3 class="text-xl font-bold text-yellow-400">Teaching Assistant</h3>
+                <h4 class="font-semibold text-xl text-white/70">Henry</h4>
+                <time class="text-sm text-gray-300/80 dark:text-white/80">Nov. 2023 - Enero 2024 · 2 meses · Provincia de Buenos Aires, Argentina · En remoto</time>
+            </div>
+        </div>
+        <div class="relative flex flex-col gap-2 pb-4 text-gray-400 dark:text-gray-200 md:col-span-3">
+            <p class="text-pretty text-gray-200">Asistente de enseñanza web developer fullstack para alumnos de Henry.</p>
+            <button onclick="document.getElementById('exp2').classList.toggle('hidden'); document.getElementById('btn3').classList.toggle('hidden'); document.getElementById('btn4').classList.toggle('hidden');" id="btn3" class="rounded-full border border-white/20 hover:bg-white/20 text-white/70 hover:text-white focus:outline-none px-4 py-2">Mostrar más</button>
+            <button onclick="document.getElementById('exp2').classList.toggle('hidden'); document.getElementById('btn3').classList.toggle('hidden'); document.getElementById('btn4').classList.toggle('hidden');" id="btn4" class="hidden rounded-full border border-white/20 hover:bg-white/20 text-white/70 hover:text-white focus:outline-none px-4 py-2">Mostrar menos</button>
+            <div id="exp2" class="hidden">
+                <p><strong>Tareas principales:</strong></p>
+                <ul class="list-disc pl-4">
+                    <li>Coordinar el grupo de estudiantes con el objetivo de lograr su adaptación al programa.</li>
+                    <li>Orientar a los estudiantes en los primeros pasos de la cursada y resolver sus inquietudes.</li>
+                    <li>Asistir y acompañar en la resolución de ejercicios y promover la colaboración grupal (Pair Programming).</li>
+                    <li>Proponer ideas para la mejora de los procesos del Bootcamp.</li>
+                    <li>Promover la cohesión grupal y generar comunidad.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
